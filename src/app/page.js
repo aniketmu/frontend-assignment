@@ -9,12 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default function Home({ Component, pageProps }) {
     const session = useSession();
     return (
-        <Router>
-        <Routes>
-          <Route path="/" element={<SignIn />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-      </Router>
+        <SignIn />
     )
 }
 
