@@ -1,0 +1,232 @@
+.sign-in-container{position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #F8FAFF;}
+
+.right-side {
+  position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #F8FAFF;
+
+}
+
+.left-side{
+  position: absolute;
+width: 719.99px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #4285F4 0%, #286DE0 100%);
+
+}
+
+.board{
+  position: absolute;
+width: 246px;
+height: 88px;
+left: 171px;
+top: 464px;
+}
+.board-title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 88px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.login-form{
+  position: absolute;
+width: 422.64px;
+height: 390.8px;
+left: 813.18px;
+top: 398.88px;
+}
+
+.card{
+  position: absolute;
+  width: 422.64px;
+  height: 347.99px;
+  left: 813.18px;
+  top: 398.88px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* .input-field{
+  position: absolute;
+width: 356.77px;
+height: 43.91px;
+left: 846.11px;
+top: 463.65px;
+} */
+
+.logo{
+  position: absolute;
+width: 69px;
+height: 29px;
+left: 72.99px;
+top: 59.81px;
+
+}
+
+.logo-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 122.69%;
+/* or 29px */
+letter-spacing: 0.015em;
+
+color: #FFFFFF;
+
+}
+
+.frame-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  gap: 48px;
+  position: absolute;
+  width: 299px;
+  height: 48px;
+  left: 144.5px;
+  top: 909px;
+}
+
+/* Vector 1 */
+.vector-1 {
+  margin: 0 auto;
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector 2 */
+.vector-2 {
+  margin: 0 auto;
+  width: 42px;
+  height: 41px;
+  background: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* carbon:logo-linkedin */
+.linkedin-logo {
+  margin: 0 auto;
+  width: 48px;
+  height: 48px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* Vector 3 */
+.vector-3 {
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.81%;
+  background: #FFFFFF;
+}
+
+/* carbon:logo-discord */
+.discord-logo {
+  margin: 0 auto;
+  width: 50px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* Vector 4 */
+.vector-4 {
+  position: absolute;
+  left: 37.74%;
+  right: 38.38%;
+  top: 46.57%;
+  bottom: 44.38%;
+  background: #FFFFFF;
+}
+
+/* Vector 5 */
+.vector-5 {
+  position: absolute;
+  left: 14.45%;
+  right: 14.45%;
+  top: 12.5%;
+  bottom: 6.25%;
+  background: #FFFFFF;
+}
+
+.login-from{
+  position: absolute;
+width: 422.64px;
+height: 390.8px;
+left: 813.18px;
+top: 398.88px;
+}
+
+.card{
+  position: absolute;
+  width: 422.64px;
+  height: 347.99px;
+  left: 0px;
+  top: 0px;
+  
+  background: #FFFFFF;
+  border-radius: 20px;
+  
+}
+
+.input-span{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-top: 50px;
+}
+
+.input-field{
+  position: absolute;
+  width: 356.77px;
+  height: 43.91px;
+  left: 32.93px;
+  top: 64.77px;
+  background: #EAEAEA;
+border-radius: 10px;
+}
+
+.input{
+  position: absolute;
+left: 58.76%;
+right: 16.47%;
+top: 54.82%;
+bottom: 40.89%;
+width: 356.77px;
+  height: 43.91px;
+
+/* Field color (darker) */
+background: #EAEAEA;
+border-radius: 10px;
+}

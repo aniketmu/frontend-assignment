@@ -1,0 +1,73 @@
+{/* Board */}
+      {/* <div className="board">
+        <h1 className="board-title">Board.</h1>
+      </div> */}
+
+      {/* Login Form */}
+      <form className="login-form">
+        {/* Card 1 */}
+        <div className="card">
+          {/* Input field 1 */}
+          <div className="input-field">
+            <label>Email address</label>
+            <input type="text" placeholder="johndoe@gmail.com" />
+          </div>
+
+          {/* Input field 2 */}
+          <div className="input-field">
+            <label>Password</label>
+            <input type="password" />
+          </div>
+
+          {/* Forgot password? */}
+          <p className="forgot-password">
+            <a href="#">Forgot password?</a>
+          </p>
+        </div>
+
+        {/* Button Sign In */}
+        <button className="sign-in-button">Sign In</button>
+
+        {/* Don’t have an account? Register here */}
+        <p className="register-link">
+          Don't have an account? <a href="#">Register here</a>
+        </p>
+
+        {/* Google Sign In */}
+        <button className="google-sign-in">
+          {/* Google icon */}
+          <span className="google-icon"></span>
+          Sign in with Google
+        </button>
+
+        {/* Apple Sign In */}
+        <button className="apple-sign-in">
+          {/* Apple icon */}
+          <span className="apple-icon"></span>
+          Sign in with Apple
+        </button>
+      </form>
+
+      {/* Sign In header */}
+      <h2 className="sign-in-header">Sign in to your account</h2>
+
+      {/* LOGO */}
+      {/* <div className="logo">LOGO</div> */}
+
+      {/* Frame 2 */}
+      <div className="frame">
+        {/* Vector 1 */}
+        <div className="vector"></div>
+
+        {/* Vector 2 */}
+        <div className="vector"></div>
+
+        {/* LinkedIn */}
+        <div className="linkedin-icon"></div>
+
+        {/* Discord */}
+        <div className="discord-icon"></div>
+
+        {/* Vector 3 */}
+        <div className="vector"></div>
+        </div>
