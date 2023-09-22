@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import SignIn from "@/app/signin/page";
+import SignIn from "./signin/page";
 import Dashboard from "./dashboard/page";
 import { SessionProvider } from "next-auth/react";
 import { useSession } from 'next-auth/react';
